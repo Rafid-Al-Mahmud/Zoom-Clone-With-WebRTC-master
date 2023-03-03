@@ -1,8 +1,8 @@
 const socket = io('/')
 const videoGrid = document.getElementById('video-grid')
 const myPeer = new Peer(undefined, {
-  host: 'https://chatbyrafid_peerserver.up.railway.app/',
-  port: '3001'
+  host: 'https://chatbyrafid-peerserver.up.railway.app/',
+  port: '3000'
 })
 const myVideo = document.createElement('video')
 myVideo.muted = true
